@@ -1,0 +1,2005 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.05)"/>
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.05)"/>
+    <title>campusOffice &#8212; Studienablaufplan</title>
+    <link type="text/css" rel="stylesheet" href="https://mywhustudies.whu.edu/custom/shared/css/new/office.css?v=7.0.2"/>
+    <link type="text/css" rel="stylesheet" href="https://mywhustudies.whu.edu/custom/whu/style/whu.css?v=7.0.2"/>
+    <link rel="shortcut icon" href="https://mywhustudies.whu.edu/system/utils/img/ioLogo/whu.ico?v=7.0.2"/>
+    <script type="text/javascript" src="https://mywhustudies.whu.edu/custom/shared/js/jquery-1.12.2.min.js?v=7.0.2"></script>
+    <script type="text/javascript" src="https://mywhustudies.whu.edu/custom/shared/js/jquery-migrate-1.4.1.min.js?v=7.0.2"></script>
+    <script type="text/javascript" src="https://mywhustudies.whu.edu/custom/shared/js/jquery-ui-1.10.3.custom.min.js?v=7.0.2"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://mywhustudies.whu.edu/custom/shared/js/campusOffice.js?v=7.0.2" type="text/javascript"></script>
+</head>
+
+<body class="pagebg">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table id="header" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td class="bg-left">
+                                <img height="1" src="https://mywhustudies.whu.edu/system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+                            </td>
+                            <td class="header-bg">
+                                <table id="inner-header" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr class="inner-header-top">
+                                        <td class="mobileNavigatorButton-cell">
+                                            <div id="mobileNavigatorButton" class="navigatorButton" onclick="mobileNavigatorToggle(this)">
+                                                <div class="navigatorButtonBar1"></div>
+                                                <div class="navigatorButtonBar2"></div>
+                                                <div class="navigatorButtonBar3"></div>
+                                            </div>
+                                        </td>
+                                        <td class="lettering-cell">
+                                            <a href="https://mywhustudies.whu.edu">
+                                                <img src="https://mywhustudies.whu.edu/system/utils/img/ioLogo/logo_whu.png" alt='[logo]' name='schriftzug'/>
+                                            </a>
+                                        </td>
+                                        <td class="mobile-lettering-cell">
+                                            <a href="https://mywhustudies.whu.edu" width="76%">
+                                                <img class="mobilelogo" src="https://mywhustudies.whu.edu/system/utils/img/ioLogo/logo_whu.png" alt="[logo]" name="schriftzug"/>
+                                            </a>
+                                        </td>
+                                </table>
+                            </td>
+                            <td class="bg-header-right" width="32">
+                                <div class="logorub">
+                                    <img width="32" height="80" src="https://mywhustudies.whu.edu/system/utils/img/ioLogo/rub-logo-bg-80-32.gif" alt="[logo]"/>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="mobileNavigatorFrame">
+                        <table>
+                            <table id="main-menu" cellpadding="0" cellspacing="0" width="174" border="0">
+                                <tr>
+                                    <td class="toggle-headline">
+                                        <a class="nav" href="/views/studentmanagement/contractView.asp?co=0">
+                                            <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                                        </a>
+                                    </td>
+                                    <td class="navigatorheadline" width="95%">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                         Pierre Chami
+                                        <br/>
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt=" Pierre Chami"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../system/login/logoff.asp">Abmelden</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/address/personalDataEditStudent.asp">Benutzerdaten ändern</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/career/jobOffers.asp">Jobangebote</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/career/news.asp">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="toggle-headline">
+                                        <a class="nav" href="/views/studentmanagement/contractView.asp?co=1">
+                                            <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                                        </a>
+                                    </td>
+                                    <td class="navigatorheadline" width="95%">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                        Campus - FS 2023
+                                        <br/>
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Campus - FS 2023"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/selectterm.asp">Semester wählen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/reregistration.asp">Rückmeldung</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/groups.asp">Vorlesungsverzeichnis</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/registrations.asp">Meine Anmeldungen zu Veranstaltungen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/questionaireslist.asp">Umfragen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/contractView.asp">Studienablaufplan</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/documents.asp">Dokumente</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/internshipmanagement.asp">Dokumente im Praktikum</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/internshipReportList.asp">Alte Praktikumsberichte</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/abroadSemesterView.asp">Auslandssemester</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/findAbroadSemester.asp">Auslandsberichte suchen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/deadlineList.asp">Meine Fristen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/selectReportConditions.asp">Immatrikulationsbescheinigung</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/search.asp">Suche</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/campus/freeRoomSearch.asp">Raumsuche</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/lecturer/defensesList.asp?tabId=futureDefenses">Verteidigungen</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="toggle-headline">
+                                        <a class="nav" href="/views/studentmanagement/contractView.asp?co=2">
+                                            <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                                        </a>
+                                    </td>
+                                    <td class="navigatorheadline" width="95%">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                        Kalender
+                                        <br/>
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Kalender"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/calendar/dayCalendar.asp">Tagesansicht</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/calendar/weekCalendar.asp">Wochenansicht</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/calendar/monthCalendar.asp">Monatsansicht</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/appointment/appointmentList.asp">Terminliste</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="toggle-headline">
+                                        <a class="nav" href="/views/studentmanagement/contractView.asp?co=3">
+                                            <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                                        </a>
+                                    </td>
+                                    <td class="navigatorheadline" width="95%">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                        Berichte
+                                        <br/>
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Berichte"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="navigator">
+                                        <a class="nav" href="../../views/studentmanagement/gradeOverview.asp">Notenübersicht</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </table>
+                    </div>
+                    <!-- Subheader (Kurz gefragt, Feedback, Hilfe) -->
+                    <table class="subheader" cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr valign="top">
+                            <td class="bg-left">
+                                <img height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+                            </td>
+                            <td>
+                                <a title='Facebook' target='_blank' href='https://www.facebook.com/visit.WHU?ref=ts'>Facebook</a>
+                                <span>&nbsp;&#124;&nbsp;</span>
+                                <a title='Webmail' target='_blank' href='https://outlook.com/whu365.onmicrosoft.com'>Webmail</a>
+                                <span>&nbsp;&#124;&nbsp;</span>
+                                <a title='HRS' target='_blank' href='http://www.hrs.com/?clientId=ZGVfX3dodQ,2'>HRS</a>
+                                <span>&nbsp;&#124;&nbsp;</span>
+                                <a title='myWHU' target='_blank' href='https://my.whu.edu/'>myWHU</a>
+                                <span>&nbsp;&#124;&nbsp;</span>
+                                <a title='Career (myWHU)' target='_blank' href='https://my.whu.edu/study/careercenter/Pages/Home.aspx'>Career (myWHU)</a>
+                            <td class="links" align="right">
+                                <label for="language">Language </label>
+                                <form method="post" name="language" action="" style="display: inline;">
+                                    <select size="1" id="chosenLanguage" name="chosenLanguage" style="width:80px;" onchange="document.language.submit()">
+                                        <option value="de" selected="selected">Deutsch</option>
+                                        <option value="en">Englisch</option>
+                                    </select>
+                                </form>
+                                &nbsp;&nbsp;&nbsp;
+                            </td>
+                </td>
+                <td class="bg-right" width="32">
+                    <img width="32" height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+                </td>
+            </tr>
+    </table>
+    <!-- Bereich unterhalb des Headers (4-spaltig: Schlagschatten links, Spacer, Inhaltsbereich, Schlagschatten rechts -->
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+            <!-- Schlagschatten -->
+            <td class="bg-left">
+                <img height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+            </td>
+            <td align="left" width="180" class="main-menu-cell">
+                <table id="main-menu" cellpadding="0" cellspacing="0" width="174" border="0">
+                    <tr>
+                        <td class="toggle-headline">
+                            <a class="nav" href="/views/studentmanagement/contractView.asp?co=0">
+                                <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                            </a>
+                        </td>
+                        <td class="navigatorheadline" width="95%">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                             Pierre Chami
+                            <br/>
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt=" Pierre Chami"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../system/login/logoff.asp">Abmelden</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/address/personalDataEditStudent.asp">Benutzerdaten ändern</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/career/jobOffers.asp">Jobangebote</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/career/news.asp">News</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="toggle-headline">
+                            <a class="nav" href="/views/studentmanagement/contractView.asp?co=1">
+                                <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                            </a>
+                        </td>
+                        <td class="navigatorheadline" width="95%">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                            Campus - FS 2023
+                            <br/>
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Campus - FS 2023"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/selectterm.asp">Semester wählen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/reregistration.asp">Rückmeldung</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/groups.asp">Vorlesungsverzeichnis</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/registrations.asp">Meine Anmeldungen zu Veranstaltungen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/questionaireslist.asp">Umfragen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/contractView.asp">Studienablaufplan</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/documents.asp">Dokumente</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/internshipmanagement.asp">Dokumente im Praktikum</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/internshipReportList.asp">Alte Praktikumsberichte</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/abroadSemesterView.asp">Auslandssemester</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/findAbroadSemester.asp">Auslandsberichte suchen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/deadlineList.asp">Meine Fristen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/selectReportConditions.asp">Immatrikulationsbescheinigung</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/search.asp">Suche</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/campus/freeRoomSearch.asp">Raumsuche</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/lecturer/defensesList.asp?tabId=futureDefenses">Verteidigungen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="toggle-headline">
+                            <a class="nav" href="/views/studentmanagement/contractView.asp?co=2">
+                                <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                            </a>
+                        </td>
+                        <td class="navigatorheadline" width="95%">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                            Kalender
+                            <br/>
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Kalender"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/calendar/dayCalendar.asp">Tagesansicht</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/calendar/weekCalendar.asp">Wochenansicht</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/calendar/monthCalendar.asp">Monatsansicht</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/appointment/appointmentList.asp">Terminliste</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="toggle-headline">
+                            <a class="nav" href="/views/studentmanagement/contractView.asp?co=3">
+                                <img src="../../system/utils/img/ioDots/ioNavigatorMinus.gif" border="0" alt="minus"/>
+                            </a>
+                        </td>
+                        <td class="navigatorheadline" width="95%">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                            Berichte
+                            <br/>
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="Berichte"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="../../system/utils/img/ioTools/ioSpace.gif" width="1" height="1" alt="spacer"/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="navigator">
+                            <a class="nav" href="../../views/studentmanagement/gradeOverview.asp">Notenübersicht</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+            <td class="space-col">&nbsp;</td>
+            <td class="content-cell">
+                <div class="content-head-line">
+                    <img width="1" height="1" border="0" src="space.gif" alt="[spacer]"/>
+                </div>
+
+                <form name="coform" action="contractView.asp" method="post">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td width="100%" valign="top">
+
+                                <table class="title-headline-wrap" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                        <!--
+                                        <td width="5"><img src="https://mywhustudies.whu.edu/system/utils/img/ioBorders/ioMainHeadlineBow_whu.gif" width="10" height="18"><br></td>
+                                        -->
+                                        <td width="100%">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td class="title-headline">Studienablaufplan
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                        <tr class="actionBarCO">
+                            <td>
+
+                                <a href="contractView.asp?print=true&gguid=0x2E6062DC0E3844849ED0B3A14B7E6EB2">
+                                    <img width="24" height="24" alt="Drucken" src="../../custom/shared/img/print_preview_24.png"/>
+
+                                                                  Drucken
+                                </a>
+                                <!-- Bericht generieren -->
+                                <!-- Ticket 177369 Ausblenden bei Studies ohne erfassten Studienablaufplan -->
+
+                                <a href="studyPlanReport.asp?gguid=0x2E6062DC0E3844849ED0B3A14B7E6EB2&type=studyPlanFromCO">
+                                    <img width="24" height="24" alt="Berichte" src="../../custom/shared/img/abschluss_24.png"/>
+
+                                                                Berichte
+                                </a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="3">
+                                <img src="space.gif" width="2" height="3" alt="[spacer]"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="10">
+                                <img src="space.gif" width="2" height="10" alt="[spacer]"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <table width="70%" height="100%" cellspacing="0" cellpadding="4" border="0">
+                                    <tr bgcolor="#fff">
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tiny">
+                                            <img src="space.gif" width="1" height="5" alt="[spacer]"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="templatecomponent foldinglist">
+                                                <response>
+                                                    <select id="contract_select" name="contract_select" size="3">
+                                                        <option selected="selected" value="0x2E6062DC0E3844849ED0B3A14B7E6EB2">Studiengang: BPO 2021 AJ2024 180, Semester: 4, Status: aktiv</option>
+                                                    </select>
+                                                    <span>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/gui_layout.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/basic_styles.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/contact_page.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/content_layout.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/datePicker.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/customdatepicker.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="screen, projection" href="../../custom/shared/css/new/demo_colours.css">
+                                                        </link>
+                                                        <link rel="stylesheet" media="print" href="../../custom/shared/css/new/print_layout.css">
+                                                        </link>
+                                                        <script type="text/javascript" src="../../custom/shared/js/jquery-1.12.2.min.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/jquery-migrate-1.4.1.min.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/jquery-ui-1.10.3.custom.min.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/jquery.query-2.1.6.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/storage.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/json2.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/ajax.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/hierarchical-InputAssistance.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/treemenu.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/specificProductStructureView.js"></script>
+                                                        <script type="text/javascript" src="../../custom/shared/js/contractview.js"></script>
+                                                        <div class="specificproductinfo formcomponent">
+                                                            <table class="displayfields">
+                                                                <tr>
+                                                                    <td class="label">Durchschnittsnote:
+                                                                                      </td>
+                                                                    <td>1.9667</td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <div class="templatecomponent foldinglist">
+                                                            <table class="hierarchy">
+                                                                <tr>
+                                                                    <th>Titel</th>
+                                                                    <th>Status</th>
+                                                                    <th>Punkte</th>
+                                                                    <th>Note</th>
+                                                                    <th>Semester</th>
+                                                                    <th>Credits</th>
+                                                                </tr>
+                                                                <tr class="hierarchie-lvl0" id="1">
+                                                                    <td>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificProductViewStudent.asp?gguid=0x2E6062DC0E3844849ED0B3A14B7E6EB2">BPO 2021 AJ2024 180 - Bachelor of Science in Internationaler BWL/Management - 2024 (180 cr)</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>180</td>
+                                                                </tr>
+                                                                <tr id="1.1" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x37DEAD8AE77A4BC1857BDF9C861EED99" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x37DEAD8AE77A4BC1857BDF9C861EED99">Quantitative Methods</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>1</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr id="1.1.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xBC4220568E634D0DA83AD6466B582E8E" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xBC4220568E634D0DA83AD6466B582E8E" name="0xBC4220568E634D0DA83AD6466B582E8E">QUANT100 - Mathematik</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.3 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.1.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xCD8B8C88D0564F6F8EF9EC37E03DB1AF">QUANT103 - Mathematik I - Mathematik I</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>1.3</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.1.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x9B0EDCBA80734D69867AB838DBB85ACF">QUANT104 - Mathematik II - Mathematik II</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>1.3</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.1.2" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x1BB149439E4C4BAB875619ECAB5DBD2B" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x1BB149439E4C4BAB875619ECAB5DBD2B" name="0x1BB149439E4C4BAB875619ECAB5DBD2B">QUANT200 - Statistik</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.1.2.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xAB8C85BDCF994A2D86D2ECB6FD429CB6">QUANT201 - Statistik I</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.1.2.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x7A54D3A47DD6420C8A896787610E3E3A">QUANT202 - Statistik II</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.2" class="field-lvl1&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x57351E63E8E24363A601433C989E2B4D" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x57351E63E8E24363A601433C989E2B4D">Data Analysis and Management (1 aus 4; Data Analysis and Management )</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.2.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xE40602FD869C41D190C2F6B503942D6B" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xE40602FD869C41D190C2F6B503942D6B" name="0xE40602FD869C41D190C2F6B503942D6B">QUANT300 - Quantitative Forschungsmethoden</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.2.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xBD8D07DDDFC944F582105AD601F18EAD">QUANT303 - Quantitative Forschungsmethoden</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x3559BF6BB4AC4A39B18F341F343BB320" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x3559BF6BB4AC4A39B18F341F343BB320">Foundations of Management and Economics</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>1</td>
+                                                                    <td>72</td>
+                                                                </tr>
+                                                                <tr id="1.3.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x20D69FC4CEA3466D8542A667ED84ECAE" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x20D69FC4CEA3466D8542A667ED84ECAE" name="0x20D69FC4CEA3466D8542A667ED84ECAE">MGMT110 - Grundlagen der Betriebswirtschaftslehre</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x4D21CAB88FAE4B0E9146866DA88CF413">MGMT101 - Einführung in die BWL - Einführung in die BWL, Gruppe A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>71</td>
+                                                                    <td>1.7</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x19239C8D80954FEABFC5F931BBFBB06F">SCM101 - Sourcing: Managing the Firm's Supply Base - Sourcing: Managing the Firm's Supply Base, Group A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>80</td>
+                                                                    <td>1.7</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.2" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xC420772885614F76A418D8D74E3F77FE" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xC420772885614F76A418D8D74E3F77FE" name="0xC420772885614F76A418D8D74E3F77FE">ACCT110 - Externes Rechnungswesen</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>2.0 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.2.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x1A4916319060405C9796F2731B0410AE">ACCT101 - Grundlagen des Externen Rechnungswesens - Introduction to Financial Accounting</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>2.0</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.2.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xD1F73D99AEB342B690C68F29CD44E553">ACCT102 - Jahresabschluss - Financial Statements</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>2.0</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.3" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xDA5BADCD2B1D4ECBA99AF294D945799F" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xDA5BADCD2B1D4ECBA99AF294D945799F" name="0xDA5BADCD2B1D4ECBA99AF294D945799F">ECON100 - Grundlagen der Volkswirtschaftslehre</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>2.3 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.3.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x7E9C526F0FAB4DF8B8665B49A9EFAD4D">ECON101 - Grundlagen der Marktwirtschaft - Grundlagen der Marktwirtschaft, Gruppe A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>2.3</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.3.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x2F07D2DD16CE4B169B174D15E62FB36A">ECON102 - Mikroökonomie - Mikroökonomie, Gruppe A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>2.3</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.4" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x917488AA71A74906B1174A0391DD0FA0" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x917488AA71A74906B1174A0391DD0FA0" name="0x917488AA71A74906B1174A0391DD0FA0">FIN200 - Finanzwirtschaft</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>5.0 </td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.4.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xA6414B9E50424995966286252705D8D8">FIN201 - Grundlagen der Finanzwirtschaft - Foundations of Finance, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>5.0</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.4.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xFDE4F7AD472E4D8F86829DC48DBFF0A4">FIN202 - Unternehmensfinanzierung - Corporate Finance, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>5.0</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.5" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x845E26C945CF48F5BD54D13C93F162D4" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x845E26C945CF48F5BD54D13C93F162D4" name="0x845E26C945CF48F5BD54D13C93F162D4">MKT200 - Marketing und Vertrieb</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7 </td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.5.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x63DD5A70D9824DB28B8EA08B0EC37976">MKT201 - Grundlagen des Vertriebs - Grundlagen des Vertriebs, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>49.25</td>
+                                                                    <td>1.7</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.5.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xEC5D45E1E3A14B469C0B18016A114E0A">MKT202 - Grundlagen des Marketing - Grundlagen des Marketing, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>79</td>
+                                                                    <td>1.7</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.6" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x1C14BAB3AE9C49D7918092F0778D178D" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x1C14BAB3AE9C49D7918092F0778D178D" name="0x1C14BAB3AE9C49D7918092F0778D178D">MGMT210 - Organizational Behavior</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.3 </td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.6.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x48F7167AD4F94C1E8005216B5B87F3F6">GEN301 - Psychologie  - Psychology, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>1.3</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.6.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xBB55F731634D4557A8A89E4FC4E308EB">MGMT203 - Organizational Behavior - Organizational Behavior, August</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>1.3</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.7" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x20E20AEE013B4406A0D4C2B07FA4FAE4" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x20E20AEE013B4406A0D4C2B07FA4FAE4" name="0x20E20AEE013B4406A0D4C2B07FA4FAE4">FIN300 - Finanzmanagement</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.7.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xE243BFCDC2044C00A1455AD614CE232E">ACCT103 - Jahresabschlussanalyse</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.7.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x872CF0D8BC124961A35F186415B9E3B2">FIN203 - Finanzielle Unternehmensbewertung</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.8" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x9D02FD74D3C54BF0BBF3D767B1849B1F" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x9D02FD74D3C54BF0BBF3D767B1849B1F" name="0x9D02FD74D3C54BF0BBF3D767B1849B1F">ECON310 - Volkswirtschaftslehre</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>5.0 </td>
+                                                                    <td>3</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.8.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x07ABCA350B7E4DC9A056A08840E229FA">ECON304 - Makroökonomie - Macroeconomics, Group A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td>47</td>
+                                                                    <td>5.0</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.8.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x313FC117886645D1AA0C3C5DFD493A6A">ECON305 - Finanzwissenschaft - Public Finance, Group A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td>47</td>
+                                                                    <td>5.0</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.9" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x8E7967D465C34758B7AC8FEEB4AE3A38" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x8E7967D465C34758B7AC8FEEB4AE3A38" name="0x8E7967D465C34758B7AC8FEEB4AE3A38">SCM210 - Produktions- und Logistikmanagement</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.9.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x493F087CA363475E85E020B1DBC4BB3D">SCM203 - Logistik</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.9.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xFD4991AF4E3C4023A8EC7E359B9A4CC2">SCM201 - Produktions- und Dienstleistungsmanagement</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.10" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x72DA14D7D9554FC5B0EF3DD8E43FC979" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x72DA14D7D9554FC5B0EF3DD8E43FC979" name="0x72DA14D7D9554FC5B0EF3DD8E43FC979">MGMT300 - Unternehmenssteuerung</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>4.0 </td>
+                                                                    <td>3</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.10.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xCD20A7504F6745E593099BB14934A20A">ACCT301 - Kosten- und Leistungsrechnung - Cost Accounting, Group A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>4.0</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.10.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xAE9514ECA1CC4FDF82AA3A49449F150B">MGMT302 - Controlling - Controlling, Group A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>4.0</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.11" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xC28D56CF5EFA4375B17703115617685F" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xC28D56CF5EFA4375B17703115617685F" name="0xC28D56CF5EFA4375B17703115617685F">EAI303 - Unternehmertum und Innovation</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.11.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x00742D91C3544972AEDDAD19BB100B42">EAI301 - Innovationsmanagement</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.11.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xA10D36E8EFE340F29FB59E58705F7378">EAI302 - Unternehmertum</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.12" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x1E5D463968B347B9BE9EA4F26DC825ED" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x1E5D463968B347B9BE9EA4F26DC825ED" name="0x1E5D463968B347B9BE9EA4F26DC825ED">MGMT400 - Unternehmensführung</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.3.12.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x74404ADD6352472293FBB57FA00EB9D6">MGMT401 - Business Game</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.3.12.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x3B581B82563645EFAF1651B3F7836D51">MGMT403 - Strategische Führung</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.4" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x6D1F708231D4439C85A8B6FC41732775" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x6D1F708231D4439C85A8B6FC41732775">Law</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7</td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.4.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xE26546DB8CD24DD6AC0753D72897D21F" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xE26546DB8CD24DD6AC0753D72897D21F" name="0xE26546DB8CD24DD6AC0753D72897D21F">LAW100 - Grundlagen des Rechts</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.4.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xC72FAE5AA7ED456488EEA7AE92BB494B">LAW101 - Zivilrecht - Zivilrecht, Gruppe A</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>1.3</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.4.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x3AF2A10D1BD24A828A44EB37E3A515D8">LAW102 - Wirtschafts- und Handelsrecht - Wirtschafts- und Handelsrecht, Gruppe A, 1. Semester</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>83</td>
+                                                                    <td>2.0</td>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.5" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xFD79247DF6F646FF9F6132563128F595" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xFD79247DF6F646FF9F6132563128F595">Ethics and Sustainability</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.5.1" class="module-lvl2&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xEAA2718A170640F38319ACFDC5232B34" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xEAA2718A170640F38319ACFDC5232B34" name="0xEAA2718A170640F38319ACFDC5232B34">GEN310 - Ethik und Nachhaltigkeit</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.6" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xC80701E89CC54EB7A2D84E6F9A53DB9A" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xC80701E89CC54EB7A2D84E6F9A53DB9A">Seminar</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.6.1" class="module-lvl2&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xD39547A4E01C44D884952C79680AE01C" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xD39547A4E01C44D884952C79680AE01C" name="0xD39547A4E01C44D884952C79680AE01C">SEM400 - Seminar</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.7" class="field-lvl1&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xEF5B88C921D9465DAD16BB0D9D268009" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xEF5B88C921D9465DAD16BB0D9D268009">Concentrations (2 aus 17; Concentrations)</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr id="1.7.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x9AA7213E4C41423ABD76328279AA0073" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x9AA7213E4C41423ABD76328279AA0073" name="0x9AA7213E4C41423ABD76328279AA0073">ECON430 - Financial Markets</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.7.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xCB52844C865B4E71A9ED47A43A10E362">ECON431 - Money, Banking, and Financial Markets</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.7.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x88385291227B40BAB864B244EA645F35">ECON432 - Asset Management</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.7.2" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x7544681924814C23BE7E7BCF98F2FF1D" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x7544681924814C23BE7E7BCF98F2FF1D" name="0x7544681924814C23BE7E7BCF98F2FF1D">MGMT480 - Structured Problem Solving</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.7.2.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x344C08C7CFD64CBE80288BA83AD0D9BD">MGMT434 - Structured Problem Solving</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.8" class="field-lvl1&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xB842145271B44A628F7E02653554F820" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xB842145271B44A628F7E02653554F820">Foreign Language and Intercultural Competence (1 aus 8; Language I)</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7</td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.8.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xFECAD09E994543E1B6A9ED1BF5EC67E1" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0xFECAD09E994543E1B6A9ED1BF5EC67E1" name="0xFECAD09E994543E1B6A9ED1BF5EC67E1">LANG100J - Fremdsprachliche und interkulturelle Kompetenz I Japanisch</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>1.7 </td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.8.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x6C0FE125BF784AB1BAB76434B521CA44">LANG101J - Japanisch I - Japanisch I</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>95</td>
+                                                                    <td>1.3</td>
+                                                                    <td>1</td>
+                                                                    <td>2</td>
+                                                                </tr>
+                                                                <tr id="1.8.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x83E5DFECB9AF4265B41C13C790D41FD9">LANG102J - Japanisch II - Japanisch II, A1/A2</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>89</td>
+                                                                    <td>2.0</td>
+                                                                    <td>2</td>
+                                                                    <td>2</td>
+                                                                </tr>
+                                                                <tr id="1.8.1.3" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x568DB445F6F041FB981F5731B2B86212">LANG103J - Japanisch III - Japanese III</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td>83</td>
+                                                                    <td>2.0</td>
+                                                                    <td>3</td>
+                                                                    <td>2</td>
+                                                                </tr>
+                                                                <tr id="1.9" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x04F848686EC94CBAABCACD6611EC4903" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x04F848686EC94CBAABCACD6611EC4903">Studium Generale</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.9.1" class="module-lvl2&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x002E85E8D76C4CFEB867CD21E5E29096" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x002E85E8D76C4CFEB867CD21E5E29096" name="0x002E85E8D76C4CFEB867CD21E5E29096">GEN410 - Studium Generale</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td>Bestanden </td>
+                                                                    <td>4</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xAD8AA323F4064AD499C645B062A0B92D">GEN456 - Coding Foundations - Coding Foundations</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xCBD8BD99A1E449968E144934A4EFBE5A">GEN454 - Understanding your personal performance base - Understanding your personal performance base</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.3" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0xC0FC65E150AB4418AAC0FC568B4435BB">GEN457 - Analyze data with Python - Analyze data with Python</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.4" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x0565B5083E06400E880FE63DC9A149A5">GEN458 - Web Development - Web Development</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.5" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x150EB0BFFD5E4A0685C71F9C78837439">GEN459 - App Development - App Development</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.9.1.6" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x79E9F1A1E39E4D9790237E84F03C536D">GEN460 - Analyze financial data with Python - Analyze financial data with Python</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.10" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x767682699F574B7A9A43C3CCC9DE9F86" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x767682699F574B7A9A43C3CCC9DE9F86">Internships</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.10.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x79D743B3705C4A3AA211322116A3F544" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x79D743B3705C4A3AA211322116A3F544" name="0x79D743B3705C4A3AA211322116A3F544">INT400 - Praktikum</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="started">
+                                                                        <div title="begonnen" class="started"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                                <tr id="1.10.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x79AA24A75788443B93304C0000B288F6">INT401 - Praktikum I - BSc 2024 Praktikum I</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="passed">
+                                                                        <div title="bestanden" class="passed"/>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td>Bestanden</td>
+                                                                    <td>2</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.10.1.2" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x94DC98823C1A433FA1A40F2529BF8C99">INT402 - Praktikum II</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>3</td>
+                                                                </tr>
+                                                                <tr id="1.11" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xA9A6B78CA1B644B8A79732B08E01410C" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xA9A6B78CA1B644B8A79732B08E01410C">Study Abroad</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>30</td>
+                                                                </tr>
+                                                                <tr id="1.11.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x51552E4362CD4A268A2E22CA71BBD420" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x51552E4362CD4A268A2E22CA71BBD420" name="0x51552E4362CD4A268A2E22CA71BBD420">SA400 - Auslandsstudium</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>30</td>
+                                                                </tr>
+                                                                <tr id="1.11.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x292CCB08B3D243E09B2B623BCA0753E4">SA401 - Study Abroad BSc</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>4</td>
+                                                                    <td>30</td>
+                                                                </tr>
+                                                                <tr id="1.12" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x01D03C5417FE4039870A88E268A71C46" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x01D03C5417FE4039870A88E268A71C46">Bachelor Thesis</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr id="1.12.1" class="module-lvl2">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x59753AD95C3B4D329F2A08A5411D1B0F" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x59753AD95C3B4D329F2A08A5411D1B0F" name="0x59753AD95C3B4D329F2A08A5411D1B0F">BSC THESIS - Bachelor Thesis</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr id="1.12.1.1" class="brick-lvl3">
+                                                                    <td class="indented">
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificBrickViewStudent.asp?gguid=0x47FC6D1C8BB04327832467CCB37BBF75">BSC THESIS - Bachelor Thesis</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>6</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr id="1.13" class="field-lvl1&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x3A77F51F638A4187BF29EC56ED85982A" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x3A77F51F638A4187BF29EC56ED85982A">Additional Modules (3 aus 22; Concentrations)</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>1</td>
+                                                                    <td>9</td>
+                                                                </tr>
+                                                                <tr id="1.14" class="field-lvl1">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x45772206DD174361B560D42444214F3A" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0x45772206DD174361B560D42444214F3A">Free Elective Courses</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>15</td>
+                                                                </tr>
+                                                                <tr id="1.14.1" class="module-lvl2&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0x8E5E8F1A5ABC4EAABE9E91EE1754EB62" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <a href="&#xA;                            specificModuleViewStudent.asp?gguid=0x8E5E8F1A5ABC4EAABE9E91EE1754EB62" name="0x8E5E8F1A5ABC4EAABE9E91EE1754EB62">OPT100 - Free Elective Courses</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>2</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr id="1.15" class="field-lvl1&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xA238E679271D407290D340FEB1533013" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xA238E679271D407290D340FEB1533013">Facultative Modules (3 aus 3; Facultative Module)</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>1</td>
+                                                                    <td>24</td>
+                                                                </tr>
+                                                                <tr id="1.15.1" class="field-lvl2&#xA;            hascompulsoryelective&#xA;          ">
+                                                                    <td class="indented foldingelement_opened">
+                                                                        <div id="0xB82C667DF050452A9AE35288FD1EBEB5" class="foldingelement"/>
+                                                                        <div class="text">
+                                                                            <img alt="Wahl" src="../../custom/shared/img/verwendung_16.png"/>
+                                                                            <a href="&#xA;                            specificfieldViewStudent.asp?gguid=0xB82C667DF050452A9AE35288FD1EBEB5">Language</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="notstarted">
+                                                                        <div title="noch nicht begonnen" class="notstarted"/>
+                                                                    </td>
+                                                                    <td/>
+                                                                    <td></td>
+                                                                    <td>1</td>
+                                                                    <td>6</td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </span>
+                                                </response>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <!-- Schlagschatten + Footer -->
+            <td class="bg-right">
+                <img height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+            </td>
+        </tr>
+    </table>
+
+    <table class="footer" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="bg-left">
+                <img height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+            </td>
+            <td style="width:auto;height:auto">
+                <div class="page-footer">
+                    <span class="page-top">
+                        <a href="#">Seitenanfang</a>
+                    </span>
+                    <span class="page-footer-left">campusOffice&nbsp;7.0.2@02 &copy; CAS Software AG</span>
+                </div>
+            </td>
+            <td class="bg-right">
+                <img height="1" src="../../system/utils/img/ioTools/ioSpace.gif" alt="[spacer]"/>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+</body>
+</html>
+
